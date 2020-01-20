@@ -1,0 +1,310 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+    color: white;
+    font-family: Arial;
+    background-color: #445161;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrp {
+    width: 400px;
+    float: left;
+}
+
+.main-header-title {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.main-header-list {
+    margin: 0;
+    list-style: none;
+    padding: 0 0 0 30px;
+    width: 422px;
+    height: 127px;
+}
+
+.main-header-list-item {
+    position: relative;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 0 0 0 6px;
+}
+
+.main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 5px;
+    left: -31px;
+    background-image: url('./img/check_icon.png');
+    background-size: cover;
+}
+
+.item2:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 4px;
+    left: -30px;
+    background-image: url('./img/check_icon.png');
+    background-size: cover;
+}
+
+.main-header-img {
+    display: block;
+    width: 469px;
+    min-height: 214px;
+    background-color: #fff;
+    float: right;
+}
+
+.content {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 0px;
+    position: relative;
+}
+
+.about-product {
+    height: 345px;
+    background-color: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product span {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.product-p {
+    width: 620px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+video {
+    outline: 1px solid black;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #445161;
+}
+
+.dignity {
+    margin: 0 auto;
+    height: 418px;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.dignity span {
+    width: 351px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.dignity ul li {
+    width: 526px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: -1px -26px 28px -33px;
+}
+
+.marker {
+    list-style-type: none;
+    position: relative;
+}
+
+.marker li:before {
+    content: url('./img/Slice_9.png');
+    display: block;
+    width: 32px;
+    height: 32px;
+    /* background-color: #fff; */
+    /* border: 1px solid black; */
+    background-size: cover;
+    margin: 29px 0px -35px -39px;
+}
+
+.content-marker {
+    width: 1116px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.marker-two {
+    float: right;
+}
+
+.marker-one {
+    width: 256px;
+    float: left;
+}
+
+.screenshots {
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    height: 487px;
+}
+
+.screenshots span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 138px;
+    height: 22px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 51px 0px 25px 0px;
+}
+
+figure {
+    margin: 0;
+    width: 574px;
+    height: 150px;
+    top: 10px;
+    background-size: cover;
+}
+
+figure img {
+    background-color: #445161;
+    display: block;
+    float: left;
+}
+
+figcaption h3 {
+    float: right;
+    display: block;
+    width: 350px;
+    height: 0px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+figcaption p {
+    float: right;
+    display: block;
+    width: 364px;
+    height: 108px;
+    color: #333333;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.screen-figure-one {
+    float: left;
+}
+
+.screen-figure-two {
+    float: right;
+}
+
+.screen-left {
+    padding: 0px 0px 0px 50px;
+}
+
+.screen-photo {
+    margin-top: 30px;
+}
+
+.screen-photo-one {
+    margin: 30px 0 0 -50px;
+}
+
+.screen-block {
+    margin-top: 60px;
+}
+
+.texptwo {
+    padding: 0 50px 0px 0px;
+}
+
+.textp2 {
+    margin: 15px 50px 0px 0px;
+}
+
+.textthree {
+    padding: 34px 0px 0px 0px;
+}
+
+.texpfour {
+    padding: 30px 50px 0 0;
+}
+
+.textp4 {
+    padding: 0 50px 0 0;
+}
